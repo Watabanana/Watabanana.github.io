@@ -1,0 +1,161 @@
+body {
+	background-color: #2e3136;
+	font-family: Verdana;
+}
+
+h1 {
+	margin-bottom: -2px;
+	text-align: center;
+}
+
+h1, p , h5, label, h6{
+	color: #898d99;
+}
+
+p {
+	font-size: 82%;
+	text-align: center;
+}
+
+h5 {
+	width: 375px;
+	background: #454955;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: center;
+}
+
+span {
+	color: #2ca0e9;
+}
+
+.box {
+	width: 375px;
+	position: absolute;
+	top: 415px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #22252a;
+	border-radius: 7px;
+	margin-bottom: 80px;
+}
+
+.box p {
+	padding-left: 6.7%;
+	text-align: left;
+	font-size: 10.5px;
+	font-weight: bold;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.box input[type = "text"], .box input[type = "password"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 10px auto;
+	background: #454955;
+	padding: 10px 14px;
+	width: 300px;
+	color: white;
+	transition: 0.25s;
+	border-radius: 7px;
+	outline: none;
+	font-size: 14px;
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+	border: 2px solid #3498db;
+	transition: 0.25s;
+}
+
+.check {
+	font-weight: normal;
+	text-align: left;
+	font-size: 12px;
+	padding: 10px 20px;
+}
+
+.box input[type = "checkbox"] {
+	height: 12px;
+	width: 12px;
+}
+
+.box input[type = "submit"]{
+	background: #28a0d4;
+	margin: 10px auto;
+	margin-bottom: 0px;
+	border: none;
+	padding: 9px 11px;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+	transition: 0.25s;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 22px;
+}
+
+.box input[type = "submit"]:hover{
+	background: #545864;
+	transition: 0.50s;
+}
+
+.line {
+	margin-top: -13px;
+	text-align: left;
+	padding-right: 20px;
+}
+
+h6 {
+	font-weight: normal;
+	text-align: center;
+	margin: 8px auto;
+	margin-bottom: 4px;
+}
+
+a {
+	color: #2ca0e9;
+	text-decoration: none;
+}
+
+.box a {
+	color: white;
+	text-decoration: none;
+}
+
+.signin {
+	text-align: center;
+}
+
+.signin input[type = "submit"] {
+	background: #545864;
+	padding-left: 140px;
+	padding-right: 140px;
+	margin: 10px 0px;
+	margin-bottom: 30px;
+	transition: 0.25s;
+}
+
+.signin input[type = "submit"]:hover{
+	background: #28a0d4;
+	transition: 0.50s;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("Realistic_Water_Shader.jpg");
+	background-size: cover;
+}
+
+.background .water {
+	position: absolute;
+	background-image: url("Realistic_Water_Shader mask.png");
+	background-size: cover;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	filter: url("#turbulence");
+}
+
+.web {
+	border: 2px solid black;
+	padding: 20px;
+	text-align: center;
+}
