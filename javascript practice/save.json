@@ -1,0 +1,30 @@
+{
+	"id_num": 1
+	{
+		"destination_form": {
+			"id_destination": 1,
+			"destination": "location_1",
+			"num_visitor": 2,
+			"visitor_per_week": 14
+		},
+		"date": "9/25/2022",
+		"distance": 350 "miles",
+		"state_business": "vacation",
+		"visitor_form": [{
+			"id_name": 1,
+			"name_visitor": "jill",
+			"adress": "location_1",
+			"age": 23,
+			"sex": "female",
+			"email": "testemail0001@gmail.com"
+		},
+		{
+			"id_name": 2,
+			"name_visitor": "dan",
+			"adress": "location_2",
+			"age": 12,
+			"sex": "male",
+			"email": "testemail0002@gmail.com"
+		}]
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"people": [
+		{
+			"name": "black",
+			"age": 12
+		},
+		{
+			"name": "red",
+			"age": 21
+		},
+		{
+			"name": "blue",
+			"age": 12
+		},
+		{
+			"name": "pink",
+			"age": 16
+		},
+		{
+			"name": "green"
+		}
+	]
+}
